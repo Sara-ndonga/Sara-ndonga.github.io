@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dded79c5.css",
-    "main.js": "/static/js/main.0edb23f7.js",
+    "main.js": "/static/js/main.71b8adda.js",
     "static/js/787.147d0d7e.chunk.js": "/static/js/787.147d0d7e.chunk.js",
     "static/media/pendejas1.jpg": "/static/media/pendejas1.79124d8bfc72065f094d.jpg",
     "static/media/taza1.png": "/static/media/taza1.d81895fabe5021722e49.png",
@@ -16,11 +16,11 @@
     "static/media/taza2.jfif": "/static/media/taza2.308be27e66c823ec8b06.jfif",
     "index.html": "/index.html",
     "main.dded79c5.css.map": "/static/css/main.dded79c5.css.map",
-    "main.0edb23f7.js.map": "/static/js/main.0edb23f7.js.map",
+    "main.71b8adda.js.map": "/static/js/main.71b8adda.js.map",
     "787.147d0d7e.chunk.js.map": "/static/js/787.147d0d7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dded79c5.css",
-    "static/js/main.0edb23f7.js"
+    "static/js/main.71b8adda.js"
   ]
 }

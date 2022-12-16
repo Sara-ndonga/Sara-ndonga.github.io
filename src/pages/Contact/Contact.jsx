@@ -17,7 +17,7 @@ function Contact() {
         goTo("https://www.facebook.com");
         break;
       case "instagram":
-        goTo("https://www.instagram.com");
+        goTo("https://www.instagram.com/zatamilmanerasdeser/");
         break;
       case "twitter":
         goTo("https://www.twitter.com");
