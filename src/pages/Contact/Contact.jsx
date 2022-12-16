@@ -10,7 +10,6 @@ function Contact() {
     window.open(link, "_blank");
   };
   const link = (e) => {
-    console.log(e.target.alt);
     const page = e.target.alt;
     switch (page) {
       case "facebook":
@@ -24,6 +23,7 @@ function Contact() {
         break;
     }
   };
+
   return (
     <div className="body">
       <Header />
