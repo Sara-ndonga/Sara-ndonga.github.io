@@ -31,7 +31,7 @@ function Gallery() {
           ))}
         </div>
       </div>
-      <p className="sub-title">¡Elige tu propia taza!</p>
+      <p className="sub-title">¡Crea tu propia taza! ¡Hazla única!</p>
     </div>
   );
 }
