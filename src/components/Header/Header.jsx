@@ -33,11 +33,11 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link className="hover" to="/ups">
+          <Link className="hover" to="/conocenos">
             Conócenos
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className="hover" to="/ups">
             Algo
           </Link>
@@ -46,9 +46,9 @@ function Header() {
           <Link className="hover" to="/ups">
             Algo 2
           </Link>
-        </li>
+        </li> */}
         <li>
-          <Link className="hover" to="/ups">
+          <Link className="hover" to="/contacto">
             Contacto
           </Link>
         </li>

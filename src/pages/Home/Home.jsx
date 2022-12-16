@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./../../components/Header/Header";
-import icon from "./../../assets/icon.png";
+import icon from "./../../assets/icons/icon.png";
 import "./Home.scss";
 
 function Home() {

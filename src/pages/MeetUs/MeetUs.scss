@@ -1,0 +1,30 @@
+.us {
+  margin-top: 8%;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 1em;
+}
+
+.meetus-image {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  border-radius: 100px;
+}
+
+.image1 {
+  left: 0;
+  bottom: 0;
+}
+
+.image2 {
+  top: 20vh;
+  right: 0;
+}
