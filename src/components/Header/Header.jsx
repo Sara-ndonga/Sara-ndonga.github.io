@@ -28,19 +28,29 @@ function Header() {
       </label>
       <ul className="menu">
         <li>
-          <Link to="/galeria">Galería</Link>
+          <Link className="hover" to="/galeria">
+            Galería
+          </Link>
         </li>
         <li>
-          <Link to="/ups">Conócenos</Link>
+          <Link className="hover" to="/ups">
+            Conócenos
+          </Link>
         </li>
         <li>
-          <Link to="/ups">Algo</Link>
+          <Link className="hover" to="/ups">
+            Algo
+          </Link>
         </li>
         <li>
-          <Link to="/ups">Algo 2</Link>
+          <Link className="hover" to="/ups">
+            Algo 2
+          </Link>
         </li>
         <li>
-          <Link to="/ups">Contacto</Link>
+          <Link className="hover" to="/ups">
+            Contacto
+          </Link>
         </li>
       </ul>
     </div>

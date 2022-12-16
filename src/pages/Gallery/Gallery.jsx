@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import PhotoCard from "../../components/PhotoCard/PhotoCard";
-import taza1 from "./../../assets/tazas/taza1.jpg";
+import taza1 from "./../../assets/tazas/taza1.png";
 import taza2 from "./../../assets/tazas/taza2.jfif";
 import taza3 from "./../../assets/tazas/taza3.jpg";
 import taza4 from "./../../assets/tazas/taza4.jpg";
@@ -17,7 +17,7 @@ function Gallery() {
   ];
 
   return (
-    <div>
+    <div className="background">
       <Header />
       <h1 className="align-left">Nuestros productos</h1>
       <div className="scroll">

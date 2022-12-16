@@ -1,11 +1,18 @@
 .body {
   height: 100vh;
-  background-color: rgb(250, 255, 235);
+  // background-color: #b9faba;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(185, 250, 186, 1) 100%
+  );
 }
 
 .slogan {
   font-size: 4vw;
-  color: rgb(66, 66, 66);
+  color: #486448;
+  text-shadow: rgb(0, 0, 0) 0.03em 0.001em 0.001em;
   font-family: cursive;
   opacity: 0;
 }
@@ -22,6 +29,7 @@
 
 .sub-title {
   font-size: 2vw;
+  color: #486448;
 }
 
 @media (max-width: 650px) {

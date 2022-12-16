@@ -20,10 +20,11 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  background: linear-gradient(to left, #b5df7e, #ffffff);
+  background: rgb(185, 250, 186);
+  background: linear-gradient(0deg, #524121 0%, #6b562b 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
-  text-shadow: rgb(255, 255, 255) 0.02em 0.02em 0.1em;
+  // color: #fff;
+  // text-shadow: rgb(255, 255, 255) 0.02em 0.02em 0.1em;
   height: 50px;
   padding: 1em;
   height: 60px;
@@ -129,7 +130,7 @@ body {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
+    // color: #edba5d;
     background-color: rgb(110, 109, 109);
   }
   .menu > li:not(:last-child) {
@@ -141,16 +142,16 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: black;
+  color: #edba5d;
 }
 
-a:hover {
-  color: rgb(185, 185, 185);
+a.hover:hover {
+  text-decoration: underline;
 }
 
 .title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 40px;
-  color: rgb(0, 0, 0);
-  text-shadow: rgb(239, 255, 219) 0.1em 0.1em 0.1em;
+  // color: #edba5d;
+  text-shadow: rgb(0, 0, 0) 0.05em 0.001em 0.001em;
 }
