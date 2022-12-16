@@ -1,0 +1,37 @@
+.body {
+  height: 100vh;
+  background-color: rgb(250, 255, 235);
+}
+
+.slogan {
+  font-size: 4vw;
+  color: rgb(66, 66, 66);
+  font-family: cursive;
+  opacity: 0;
+}
+
+.fadein {
+  transition: opacity 5s linear 5s;
+  opacity: 1;
+}
+
+.icon {
+  width: 35vw;
+  margin-bottom: 2vh;
+}
+
+.sub-title {
+  font-size: 2vw;
+}
+
+@media (max-width: 650px) {
+  .slogan {
+    font-size: 8vw;
+  }
+  .icon {
+    width: 80vw;
+  }
+  .sub-title {
+    font-size: 3vw;
+  }
+}

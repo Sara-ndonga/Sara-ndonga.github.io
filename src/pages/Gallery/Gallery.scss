@@ -1,0 +1,24 @@
+.align-left {
+  display: flex;
+  margin-left: 10%;
+}
+
+.scroll {
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  margin-right: 10%;
+  margin-left: 10%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.cardsContainer {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: left;
+}

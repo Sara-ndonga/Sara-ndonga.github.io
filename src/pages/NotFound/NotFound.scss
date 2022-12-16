@@ -1,0 +1,20 @@
+.error404 {
+  background-color: beige;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.oops {
+  display: flex;
+  position: absolute;
+  left: 10vw;
+  bottom: 200px;
+  width: 10%;
+}
+
+.message {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 5em;
+}
