@@ -1,15 +1,17 @@
 import React from "react";
 import { useState } from "react";
 import Bubble from "../../components/Bubble/Bubble";
+import useWindowDimensions from "../../components/UseWindowDimensions/UseWindowDimensions";
 import "./Home.scss";
 
 function Home() {
+  const { height, width } = useWindowDimensions();
   const [game, setGame] = useState(null);
   const [score, setScore] = useState(0);
   const [menuVisible, setMenuVisible] = useState(true);
   const [isBubbleVisible, setIsBubbleVisible] = useState(false);
-  const [top, setTop] = useState(Math.random() * window.innerHeight);
-  const [left, setLeft] = useState(Math.random() * window.innerWidth);
+  const [top, setTop] = useState(Math.random() * height);
+  const [left, setLeft] = useState(Math.random() * width);
   const start = () => {
     setTop(Math.random() * window.innerHeight);
     setLeft(Math.random() * window.innerHeight);

@@ -1,6 +1,6 @@
 .game-container {
   display: flex;
-  height: 98.4vh;
+  height: 98.5vh;
   background: rgb(255, 244, 224);
   background: radial-gradient(
     circle,
@@ -46,6 +46,24 @@
   border-radius: 10px;
   font-size: 1em;
   background-color: rgb(200, 200, 200);
+}
+
+@media (max-width: 600px) {
+  .buttons button {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 450px) {
+  .buttons button {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 340px) {
+  .buttons button {
+    font-size: 0.5em;
+  }
 }
 
 .menu button:hover {
