@@ -1,44 +1,72 @@
-.body {
-  height: 100vh;
-  background: rgb(255, 255, 255);
+.game-container {
+  display: flex;
+  height: 98.5vh;
+  background: rgb(255, 244, 224);
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(185, 250, 186, 1) 100%
+    rgba(255, 244, 224, 1) 0%,
+    rgba(255, 209, 128, 1) 100%
   );
+  border: 5px solid black;
 }
 
-.slogan {
-  font-size: 4vw;
-  color: #486448;
-  text-shadow: rgb(0, 0, 0) 0.03em 0.001em 0.001em;
-  font-family: cursive;
-  opacity: 0;
+.counter {
+  background-color: white;
+  box-shadow: 1px 1px 0px black;
+  text-shadow: 0.05em 0.01em black;
+  width: 20vw;
+  height: 20px;
+  border: 2px solid black;
+  text-align: right;
+  padding: 0.5em;
 }
 
-.fadein {
-  transition: opacity 5s linear 5s;
-  opacity: 1;
+.menu {
+  text-shadow: 0.1em 0.1em #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5em;
+  background-color: rgb(175, 150, 111);
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px black;
+  width: 60vw;
+  height: 50vh;
+  margin-top: 20vh;
+  z-index: 2;
 }
 
-.icon {
-  width: 35vw;
-  margin-bottom: 2vh;
+.buttons {
+  margin-top: 8vh;
 }
 
-.sub-title {
-  font-size: 2vw;
-  color: #486448;
+.buttons button {
+  margin-top: 1vh;
+  height: 10vh;
+  width: 20vw;
+  border-radius: 10px;
+  font-size: 1em;
+  background-color: rgb(200, 200, 200);
 }
 
-@media (max-width: 650px) {
-  .slogan {
-    font-size: 8vw;
+@media (max-width: 600px) {
+  .buttons button {
+    font-size: 0.8em;
   }
-  .icon {
-    width: 80vw;
+}
+
+@media (max-width: 450px) {
+  .buttons button {
+    font-size: 0.6em;
   }
-  .sub-title {
-    font-size: 3vw;
+}
+
+@media (max-width: 340px) {
+  .buttons button {
+    font-size: 0.5em;
   }
+}
+
+.menu button:hover {
+  cursor: pointer;
+  filter: invert(0.2);
 }
