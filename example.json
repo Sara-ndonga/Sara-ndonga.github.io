@@ -1,4 +1,6 @@
 {
-  "ejemplo": "Hola caracola",
-  "Sara": "Pendeja"
+  data: [
+    "ejemplo": "Hola caracola",
+    "Sara": "Pendeja"
+  ]
 }
