@@ -14,6 +14,11 @@
       "token": "8910",
       "name": "Nueva Jugadora",
       "record": 0
+    },
+    {
+      "token": "0000",
+      "name": "Dark King",
+      "record": 666
     }
   ]
 }
