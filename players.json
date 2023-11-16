@@ -4,6 +4,11 @@
       "token": "1234",
       "name": "Nuevo Jugador",
       "record": 2
+    },
+    {
+      "token": "4567",
+      "name": "Nueve Jugadore",
+      "record": 1
     }
   ]
 }
