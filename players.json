@@ -1,1 +1,9 @@
-{"players":[]}
+{
+  "players": [
+    {
+      "token": "1234",
+      "name": "Nuevo Jugador",
+      "record": 2
+    }
+  ]
+}
