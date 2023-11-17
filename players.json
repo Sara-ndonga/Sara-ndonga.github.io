@@ -1,21 +1,6 @@
 {
   "players": [
     {
-      "token": "1234",
-      "name": "Nuevo Jugador",
-      "record": 2
-    },
-    {
-      "token": "4567",
-      "name": "Nueve Jugadore xd",
-      "record": 3
-    },
-    {
-      "token": "8910",
-      "name": "Nueva Jugadora",
-      "record": 0
-    },
-    {
       "token": "0000",
       "name": "Dark King",
       "record": 666
