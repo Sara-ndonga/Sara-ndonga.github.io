@@ -24,6 +24,12 @@
       "token": "6969",
       "name": "Dr Amor",
       "record": 69
+    },
+    {
+      "name": "Fortachón",
+      "record": 16,
+      "soundsOn": true,
+      "stamina": 49
     }
   ]
 }
