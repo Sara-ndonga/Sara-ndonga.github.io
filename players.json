@@ -1,20 +1,19 @@
 {
   "players": [
     {
-      "token": "0000",
-      "name": "Dark King",
-      "record": 666
-    },
-    {
-      "token": "6969",
-      "name": "Dr Amor",
-      "record": 69
-    },
-    {
+      "token": "?",
       "name": "Rubencio",
-      "record": 19,
-      "soundsOn": true,
-      "stamina": 49
+      "record": 19
+    },
+    {
+      "token": "?",
+      "name": "vijomc",
+      "record": 0
+    },
+    {
+      "token": "?",
+      "name": "Sarandonga",
+      "record": 17
     }
   ]
 }
