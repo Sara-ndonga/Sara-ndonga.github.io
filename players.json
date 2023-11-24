@@ -2,11 +2,6 @@
   "players": [
     {
       "token": "?",
-      "name": "Rubencio",
-      "record": 19
-    },
-    {
-      "token": "?",
       "name": "vijomc",
       "record": 0
     },
@@ -24,11 +19,6 @@
       "token": "1:null:Android:emulator_arm64",
       "name": "User",
       "record": 2
-    },
-    {
-      "token": "",
-      "name": "Rubencio",
-      "record": 5
     },
     {
       "token": "1:null:samsung:a21s",
