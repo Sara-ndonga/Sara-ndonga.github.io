@@ -19,6 +19,11 @@
       "token": "[Dfhm92JaGnlLp15ahFJpfe]",
       "name": "Manolo",
       "record": 14
+    },
+    {
+      "token": "1:null:Android:emulator_arm64",
+      "name": "User",
+      "record": 2
     }
   ]
 }
